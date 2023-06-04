@@ -1,0 +1,41 @@
+.presentation {
+  background-color: #ffecf1;
+  display: flex;
+}
+
+.presentation__description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 60px;
+  color: #904a40;
+  font-style: italic;
+}
+p {
+  font-size: 20px;
+}
+
+.presentation__image {
+  width: 50%;
+}
+
+.presentation__photo {
+  width: 100%;
+  height: 100%;
+}
+
+.btn__presentation {
+  background: #904a40;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+h1,
+p,
+.btn__presentation {
+  padding-bottom: 20px;
+}

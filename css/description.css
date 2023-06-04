@@ -1,0 +1,30 @@
+.description {
+  background-color: rgb(247, 180, 180);
+  display: flex;
+}
+
+.description__about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 45px;
+  margin: 25px;
+}
+
+p {
+  font-size: 30px;
+  margin: 25px;
+  text-align: center;
+}
+
+.parrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
