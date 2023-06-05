@@ -56,3 +56,9 @@ p,
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 1106px) {
+  h1 {
+    text-align: center;
+  }
+}
