@@ -7,6 +7,8 @@
 body {
   font-family: "roboto", sans-serif;
   font-size: 16px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 /* MENU */
 header {
@@ -68,7 +70,7 @@ label {
 .menu__dropdown {
   padding-top: 50px;
   position: absolute;
-  top: 100%;
+  top: 13%;
   left: 0;
   width: 100%;
   height: 60vh;
@@ -189,5 +191,10 @@ label {
     list-style: none;
     text-decoration: none;
     margin: 0 10px;
+  }
+}
+@media (max-width: 944px) {
+  .menu__nav {
+    width: 80%;
   }
 }

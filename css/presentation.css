@@ -41,3 +41,18 @@ p,
 .btn__presentation {
   padding-bottom: 20px;
 }
+
+@media (max-width: 804px) {
+  .presentation {
+    display: block;
+  }
+  .presentation__description {
+    width: 100%;
+  }
+  .presentation__image {
+    width: 100%;
+  }
+  .btn__presentation {
+    margin-bottom: 20px;
+  }
+}

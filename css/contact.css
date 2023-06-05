@@ -1,28 +1,40 @@
 .contact {
   background-color: rgb(247, 180, 180);
+  padding: 25px;
 }
-.tittle__contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.title__contact {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 25px;
 }
 .container__adress {
   font-size: 20px;
   width: 100%;
+}
+.icons__contact {
   display: flex;
+  justify-content: center;
+}
+
+a {
+  margin: 0 auto;
 }
 
 .adress {
-  width: 50%;
   text-align: center;
 }
-.icons__contact {
-  width: 50%;
+.title__adress {
+  margin: 25px;
 }
+iframe {
+  width: 100%;
+}
+
 .icons {
-  font-size: 200%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 60px;
+
+  font-size: 100px;
 }
