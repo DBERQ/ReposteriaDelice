@@ -25,6 +25,23 @@
                 <img class="header__img" src="./img/Logo.png" alt="logo de la Reposteria">
             </div>
 
+
+            <div class="menu__hamburger ">
+                <input type="checkbox" id="menu-bar">
+                <label class="hamburger__container" for="menu-bar">
+                    <div id="hamburger__wrapper" class="">
+                        <p class="burger"></p>
+                    </div>
+                </label>
+                <nav class="menu__dropdown">
+                    <div class="menu_items">
+                        <a class="items" href="#Inicio">Inicio</a>
+                        <a class="items" href="#Nosotros">Nosotros</a>
+                        <a class="items" href="#Nuestros_Productos">Nuestros Productos</a>
+                        <a class="items" href="#Contacto">Contacto</a>
+                    </div>
+                </nav>
+            </div>
             <nav class="menu__nav">
                 <ul class="menu__container">
                     <li>
@@ -34,13 +51,16 @@
                         <a id="menu__items" href="#Nosotros">Nosotros</a>
                     </li>
                     <li>
-                        <a id="menu__items" href="#Bocaditos">Nuestros Productos</a>
+                        <a id="menu__items" href="#Nuestros_Productos">Nuestros Productos</a>
                     </li>
                     <li>
                         <a id="menu__items" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </nav>
+
+
+
         </div>
     </header>
 
@@ -54,11 +74,11 @@
                 </div>
             </div>
             <div class="presentation__image">
-                <img class="presentation__photo" src="../img/FONDO.jpg" alt="">
+                <img class="presentation__photo" src="./img/FONDO.jpg" alt="">
             </div>
         </section>
 
-        <section class="description">
+        <section class="description" id="Nosotros">
             <div class="description__about">
                 <h2>Nosotros</h2>
                 <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non veritatis
@@ -69,9 +89,9 @@
             </div>
         </section>
 
-        <section class="products">
+        <section class="products" id="Nuestros_Productos">
             <div class="products__container">
-                <h2 class="title__products">Nuestros productos</h2>
+                <h2 class="title__products">Nuestros Productos</h2>
 
                 <div class="products__catalogo">
                     <div class="products__image">
@@ -103,7 +123,7 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="Contacto">
             <h2 class="tittle__contact">Contacto</h2>
 
             <div class="container__adress">
