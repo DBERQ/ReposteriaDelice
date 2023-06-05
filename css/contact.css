@@ -1,0 +1,28 @@
+.contact {
+  background-color: rgb(247, 180, 180);
+}
+.tittle__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__adress {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.adress {
+  width: 50%;
+  text-align: center;
+}
+.icons__contact {
+  width: 50%;
+}
+.icons {
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px;
+}
